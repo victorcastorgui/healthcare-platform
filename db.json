@@ -1,0 +1,537 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "role_id": 1,
+      "name": "acong",
+      "email": "acong@gmail.com",
+      "dob": "1999-01-01",
+      "password": "acong123",
+      "photo_profile": "/images/avatar.png",
+      "token": "njdfbndfhjkghjfgwjkrgjw"
+    },
+    {
+      "id": 2,
+      "role_id": 2,
+      "name": "Dr. Jonny",
+      "email": "doctor@gmail.com",
+      "dob": "1999-01-01",
+      "password": "password",
+      "yoe": 2,
+      "specialization": {
+        "id": 2,
+        "name": "neuro specialist"
+      },
+      "certificate": "/files/dummy-certificate.pdf",
+      "photo_profile": "/images/jonny.png",
+      "token": "adjaskdjalkdjas",
+      "price": 200000,
+      "status": "busy"
+    },
+    {
+      "id": 3,
+      "role_id": 3,
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "dob": "1999-01-01",
+      "password": "password",
+      "token": "kasdkjasdkljwi"
+    },
+    {
+      "id": 4,
+      "role_id": 4,
+      "name": "pharmacy admin",
+      "email": "pharmacyadmin@gmail.com",
+      "dob": "1999-01-01",
+      "password": "password",
+      "token": "jlkjkljasdlkadjsw"
+    },
+    {
+      "id": 5,
+      "role_id": 2,
+      "name": "Dr. Tambunan",
+      "email": "doctor@gmail.com",
+      "dob": "1999-01-01",
+      "password": "password",
+      "yoe": 3,
+      "specialization": {
+        "id": 1,
+        "name": "dokter umum"
+      },
+      "certificate": "pathFile",
+      "photo_profile": "/images/avatar.png",
+      "token": "adjaskdjalkdjas",
+      "price": 350000,
+      "status": "offline"
+    },
+    {
+      "id": 6,
+      "role_id": 2,
+      "name": "Dr. Wasik",
+      "email": "doctor@gmail.com",
+      "dob": "1999-01-01",
+      "password": "password",
+      "yoe": 1,
+      "specialization": {
+        "id": 3,
+        "name": "dokter gigi"
+      },
+      "certificate": "pathFile",
+      "photo_profile": "/images/avatar.png",
+      "token": "adjaskdjalkdjas",
+      "price": 180000,
+      "status": "online"
+    }
+  ],
+  "address": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "name": "blbla",
+      "phone": "blabla",
+      "province_id": 1,
+      "city_id": 1,
+      "street": "jalan blbla",
+      "detail": "blabla",
+      "postal_code": "01987",
+      "is_default": true
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "name": "blbla2",
+      "phone": "blabla2",
+      "province_id": 12,
+      "city_id": 2,
+      "street": "jalan blbla2",
+      "detail": "blabla2",
+      "postal_code": "01987",
+      "is_default": false
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "ibuprofen",
+      "generic_name": "ibuprofen",
+      "manufacture": "pt obat-obatan",
+      "unit_in_pack": "4 kaplet",
+      "drug_form": "kaplet",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus aspernatur quibusdam illum pariatur maiores inventore minus dolor suscipit distinctio! Iure, ratione dolorum ullam, laboriosam corporis quo ipsam laborum ex rem exercitationem ipsum, rerum ducimus ab magni saepe. Ad, dolorum nemo.",
+      "content": "10 mg zat besi",
+      "price": 15000,
+      "image": "/images/productZegavit.png",
+      "category": "obat sakit kepala",
+      "drug_classification": "obat keras",
+      "weight": "1.2",
+      "length": "10.5",
+      "height": "1.5",
+      "width": "1.2"
+    },
+    {
+      "id": 2,
+      "name": "panadol",
+      "generic_name": "paracetamol",
+      "manufacture": "pt obat-obatan",
+      "unit_in_pack": "4 kaplet",
+      "drug_form": "kaplet",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus aspernatur quibusdam illum pariatur maiores inventore minus dolor suscipit distinctio! Iure, ratione dolorum ullam, laboriosam corporis quo ipsam laborum ex rem exercitationem ipsum, rerum ducimus ab magni saepe. Ad, dolorum nemo.",
+      "content": "10 mg zat besi",
+      "price": 10000,
+      "image": "/images/productZegavit.png",
+      "category": "obat demam",
+      "drug_classification": "obat keras",
+      "weight": "1.2",
+      "length": "10.5",
+      "height": "1.5",
+      "width": "1.2"
+    },
+    {
+      "id": 3,
+      "name": "tolak angin",
+      "generic_name": "jamu",
+      "manufacture": "pt obat-obatan",
+      "unit_in_pack": "4 bungkus",
+      "drug_form": "bungkus",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus aspernatur quibusdam illum pariatur maiores inventore minus dolor suscipit distinctio! Iure, ratione dolorum ullam, laboriosam corporis quo ipsam laborum ex rem exercitationem ipsum, rerum ducimus ab magni saepe. Ad, dolorum nemo.",
+      "content": "10 mg obat herbal",
+      "price": 5000,
+      "image": "/images/productZegavit.png",
+      "category": "obat masuk angin",
+      "drug_classification": "obat bebas",
+      "weight": "1.2",
+      "length": "10.5",
+      "height": "1.5",
+      "width": "1.2"
+    },
+    {
+      "id": 4,
+      "name": "inza",
+      "generic_name": "phenylephrine",
+      "manufacture": "pt obat-obatan",
+      "unit_in_pack": "2 kaplet",
+      "drug_form": "kaplet",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus aspernatur quibusdam illum pariatur maiores inventore minus dolor suscipit distinctio! Iure, ratione dolorum ullam, laboriosam corporis quo ipsam laborum ex rem exercitationem ipsum, rerum ducimus ab magni saepe. Ad, dolorum nemo.",
+      "content": "10 mg zat besi",
+      "price": 7000,
+      "image": "/images/productZegavit.png",
+      "category": "obat flu dan batuk",
+      "drug_classification": "obat bebas",
+      "weight": "1.2",
+      "length": "10.5",
+      "height": "1.5",
+      "width": "1.2"
+    }
+  ],
+  "cart": {
+    "total_amount": "999999",
+    "cart_item": [
+      {
+        "id": 1,
+        "name": "Zegavit",
+        "unit_in_pack": "4 kaplet",
+        "price": "10000",
+        "image": "/images/productZegavit.png",
+        "quantity": 2,
+        "subTotal": "20000"
+      },
+      {
+        "id": 2,
+        "name": "Zegavit",
+        "unit_in_pack": "4 kaplet",
+        "price": "25000",
+        "image": "/images/productZegavit.png",
+        "quantity": 1,
+        "subTotal": "25000"
+      }
+    ]
+  },
+  "orders": [
+    {
+      "id": 1,
+      "order_id": 70001,
+      "user_id": 1,
+      "order_items": [
+        {
+          "id": 1,
+          "name": "zegavit 6 kaplet",
+          "qty": 1,
+          "item_total_price": 10000,
+          "image": "/images/productZegavit.png"
+        },
+        {
+          "id": 2,
+          "name": "ibuprofen 10 kaplet",
+          "qty": 3,
+          "item_total_price": 15000,
+          "image": "/images/productIbuprofen.jpg"
+        },
+        {
+          "id": 3,
+          "name": "paracetamol 12 kaplet",
+          "qty": 2,
+          "item_total_price": 24000,
+          "image": "/images/productIbuprofen.jpg"
+        }
+      ],
+      "item_order": 2,
+      "order_date": "2024-01-02 11:00:20",
+      "shipping_price": 10000,
+      "shipping_method": "JNE REG",
+      "order_item_total_price": 40000,
+      "order_total_price": 50000,
+      "duration": "2",
+      "duration_unit": "days",
+      "order_status": "waiting for payment",
+      "payment_proof": "image",
+      "receiver_name": "Johnny",
+      "receiver_phone": "+6287856437283",
+      "destination_address": "Jl. Ini destination address, Kuningan Timur, Jakarta Selatan, DKI Jakarta, 16729"
+    },
+    {
+      "id": 2,
+      "order_id": 70002,
+      "user_id": 1,
+      "order_items": [
+        {
+          "id": 1,
+          "name": "inza 8 kaplet",
+          "qty": 3,
+          "item_total_price": 16500,
+          "image": "/images/productIbuprofen.jpg"
+        }
+      ],
+      "item_order": 1,
+      "order_date": "2024-01-02 13:00:01",
+      "shipping_price": 15000,
+      "shipping_method": "same day",
+      "order_item_total_price": 16500,
+      "order_total_price": 31500,
+      "duration": "4",
+      "duration_unit": "hours",
+      "order_status": "processed",
+      "payment_proof": "image",
+      "receiver_name": "Budi",
+      "receiver_phone": "+6287856432353",
+      "destination_address": "Jl. Ini destination address, Kuningan Timur, Jakarta Selatan, DKI Jakarta, 16729"
+    },
+    {
+      "id": 3,
+      "order_id": 70003,
+      "user_id": 1,
+      "order_items": [
+        {
+          "id": 1,
+          "name": "inza 8 kaplet",
+          "qty": 3,
+          "item_total_price": 16500,
+          "image": "/images/productIbuprofen.jpg"
+        }
+      ],
+      "item_order": 1,
+      "order_date": "2024-01-02 13:00:01",
+      "shipping_price": 15000,
+      "shipping_method": "same day",
+      "order_item_total_price": 16500,
+      "order_total_price": 31500,
+      "duration": "4",
+      "duration_unit": "hours",
+      "order_status": "sent",
+      "payment_proof": "image",
+      "receiver_name": "Koko",
+      "receiver_phone": "+6287856777283",
+      "destination_address": "Jl. Ini destination address, Kuningan Timur, Jakarta Selatan, DKI Jakarta, 16729"
+    }
+  ],
+  "chats": [
+    {
+      "chat_id": 1,
+      "doctor": {
+        "id": 1,
+        "image": "http://",
+        "name": "Acong",
+        "is_online": true
+      },
+      "last_message": "Ok Dok"
+    },
+    {
+      "chat_id": 2,
+      "doctor": {
+        "id": 2,
+        "image": "http://",
+        "name": "Bacong",
+        "is_online": false
+      },
+      "last_message": "Take 2 pills"
+    },
+    {
+      "chat_id": 3,
+      "doctor": {
+        "id": 2,
+        "image": "http://",
+        "name": "Victor",
+        "is_online": false
+      },
+      "last_message": "Take 3 pills"
+    },
+    {
+      "chat_id": 1,
+      "doctor": {
+        "id": 1,
+        "image": "http://",
+        "name": "Acong",
+        "is_online": true
+      },
+      "last_message": "Ok Dok"
+    },
+    {
+      "chat_id": 2,
+      "doctor": {
+        "id": 2,
+        "image": "http://",
+        "name": "Bacong",
+        "is_online": false
+      },
+      "last_message": "Take 2 pills"
+    },
+    {
+      "chat_id": 3,
+      "doctor": {
+        "id": 2,
+        "image": "http://",
+        "name": "Victor",
+        "is_online": false
+      },
+      "last_message": "Take 3 pills"
+    },
+    {
+      "chat_id": 1,
+      "doctor": {
+        "id": 1,
+        "image": "http://",
+        "name": "Acong",
+        "is_online": true
+      },
+      "last_message": "Ok Dok"
+    },
+    {
+      "chat_id": 2,
+      "doctor": {
+        "id": 2,
+        "image": "http://",
+        "name": "Bacong",
+        "is_online": false
+      },
+      "last_message": "Take 2 pills"
+    },
+    {
+      "chat_id": 3,
+      "doctor": {
+        "id": 2,
+        "image": "http://",
+        "name": "Victor",
+        "is_online": false
+      },
+      "last_message": "Take 3 pills"
+    },
+    {
+      "chat_id": 1,
+      "doctor": {
+        "id": 1,
+        "image": "http://",
+        "name": "Acong",
+        "is_online": true
+      },
+      "last_message": "Ok Dok"
+    },
+    {
+      "chat_id": 2,
+      "doctor": {
+        "id": 2,
+        "image": "http://",
+        "name": "Bacong",
+        "is_online": false
+      },
+      "last_message": "Take 2 pills"
+    }
+  ],
+  "chat": [
+    {
+      "id": 1,
+      "data": [
+        {
+          "message_id": 1,
+          "message": "kamu makan obat ya",
+          "user_id": 1
+        },
+        {
+          "message_id": 2,
+          "message": "Ok dok",
+          "user_id": 2
+        },
+        {
+          "message": "fgjkl;",
+          "user_id": 2
+        },
+        {
+          "message": "sam",
+          "user_id": 2
+        },
+        {
+          "message": "sdfgh",
+          "user_id": 2
+        },
+        {
+          "message": "ffgghhhjh",
+          "user_id": 2
+        },
+        {
+          "message": "fghjkl;",
+          "user_id": 2
+        },
+        {
+          "message": "fghjkl",
+          "user_id": 2
+        },
+        {
+          "message": "",
+          "user_id": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "data": [
+        {
+          "message_id": 1,
+          "message": "dok",
+          "user_id": 1
+        },
+        {
+          "message_id": 2,
+          "message": "dak",
+          "user_id": 2
+        },
+        {
+          "message_id": 3,
+          "message": "duk",
+          "user_id": 1
+        },
+        {
+          "message_id": 4,
+          "message": "ahahha",
+          "user_id": 2
+        },
+        {
+          "message_id": 5,
+          "message": "hoho",
+          "user_id": 1
+        },
+        {
+          "message_id": 6,
+          "message": "hehe",
+          "user_id": 2
+        },
+        {
+          "message_id": 7,
+          "message": "hihi",
+          "user_id": 1
+        },
+        {
+          "message_id": 8,
+          "message": "haha",
+          "user_id": 2
+        }
+      ]
+    },
+    {
+      "message": {
+        "message": "asdasdasda"
+      },
+      "user_id": 2,
+      "id": 3
+    }
+  ],
+  "historyConsultation": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "consultation_id": 60001,
+      "consultation_date": "2024-01-02 16:15:00",
+      "doctor_name": "Dr. Jonny",
+      "doctor_picture": "/images/jonny.png",
+      "price": 55000,
+      "chat_status": "on going"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "consultation_id": 60002,
+      "consultation_date": "2024-01-05 16:15:00",
+      "doctor_name": "Dr. Dodo",
+      "doctor_picture": "/images/jonny.png",
+      "price": 50000,
+      "chat_status": "ended"
+    }
+  ]
+}

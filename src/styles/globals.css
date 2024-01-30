@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: #00383f;
+  background: #f2f3f9;
+}
+
+@layer utilities {
+  @variants responsive {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+  }
+}
+
+@layer utilities {
+  @variants responsive {
+    
+    /* Firefox */
+    .scrollbar-custom {
+      scrollbar-width: thin;
+      scrollbar-color: #C5C9D1 transparent;
+    }
+
+    /* Chrome, Edge, and Safari */
+    .scrollbar-custom::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+
+    .scrollbar-custom::-webkit-scrollbar-thumb {
+        background-color: #C5C9D1;
+        border-radius: 14px;
+      }
+  }
+}
